@@ -1,0 +1,11 @@
+{application, alt_supervisor, [
+	{description, "Supervise one of multiple alternative workers"},
+	{vsn, "0.1.0"},
+	{id, "git"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib
+	]}
+]}.
